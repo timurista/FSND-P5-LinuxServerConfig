@@ -41,6 +41,7 @@ Configuring a Linux server (running on amazon web services) to run catalog appli
 - logged in as user grader, updated authorized keys using rsa pub key generated from ssh-keygen
 - changed ssh_confing to not permit root login or password login
 - changed firewall config file to allow port 2200
+- edited sudoers.d file to require password PASSWD: ALL for the grader user (was changed in testing to NOPASSWD)
 
 ## 6. a list of any third-party resources used
 - Udacity forums and Linux Web Server Class
