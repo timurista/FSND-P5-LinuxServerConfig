@@ -8,4 +8,4 @@ Configuring a Linux server (running on amazon web services) to run catalog appli
 installed python build
   
 ## 5. a list of any third-party resources used
-glances [https://nicolargo.github.io/glances/] - to monitor development environment at aws
+[glances] (https://nicolargo.github.io/glances/) - to monitor development environment at aws
