@@ -46,7 +46,7 @@ Configuring a Linux server (running on amazon web services) to run catalog appli
 - Udacity forums and Linux Web Server Class
 - DigitalOcean, Reddit
 - [Amazon faq forums] (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#retrieving-the-public-key) - for resovling grader login issues
-- [P5 Tutorial] (https://github.com/stueken/FSND-P5_Linux-Server-Configuration) - was very helpful for troubleshooting github cloning and integration
+- [P5 Tutorial stueken] (https://github.com/stueken/FSND-P5_Linux-Server-Configuration) - was very helpful for troubleshooting github cloning and integration
 - [glances] (https://nicolargo.github.io/glances/) - to monitor development environment at aws
 - fail2ban - to monitor unsuccessful login attempts
 - unattended-upgrades - cron job to monitor and install packages automatically
