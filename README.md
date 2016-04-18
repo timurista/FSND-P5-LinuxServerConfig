@@ -33,13 +33,13 @@ Configuring a Linux server (running on amazon web services) to run catalog appli
 - unattended-upgrades
 
 ## 5. Configuration changes made
-- modified sshd_conig port from 22 to 2200
+- modified ssh_config port from 22 to 2200
 - added catalog.conf file to sites-available directory in apache2
 - modified catalog.conf file with server the same as ip address and to point to var/www/catalog folder
 - updated sudoers in vagnratfile to allow grader to have access / sudo priveleges
 - changed configuration for postgres
 - logged in as user grader, updated authorized keys using rsa pub key generated from ssh-keygen
-- changed ssh_config file to accept port 2200
+- changed ssh_confing to not permit root login or password login
 - changed firewall config file to allow port 2200
 
 ## 6. a list of any third-party resources used
