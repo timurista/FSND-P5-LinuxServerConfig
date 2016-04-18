@@ -31,8 +31,16 @@ Configuring a Linux server (running on amazon web services) to run catalog appli
 
 
 ## 5. Configuration changes made
-- created 
+- modified sshd_conig port from 22 to 2200
+- added catalog.conf file to sites-available directory in apache2
+- modified catalog.conf file with server the same as ip address and to point to var/www/catalog folder
+- updated sudoers in vagnratfile to allow grader to have access / sudo priveleges
+- changed configuration for postgres
+- logged in as user grader, updated authorized keys using rsa pub key generated from ssh-keygen
+- 
   
 ## 6. a list of any third-party resources used
-- [Tutorial] - was very helpful for troubleshooting github cloning and integration
+- Udacity forums and Linux Web Server Class
+- [Amazon faq forums] (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#retrieving-the-public-key) - for resovling grader login issues
+- [Tutorial] (https://github.com/stueken/FSND-P5_Linux-Server-Configuration) - was very helpful for troubleshooting github cloning and integration
 - [glances] (https://nicolargo.github.io/glances/) - to monitor development environment at aws
